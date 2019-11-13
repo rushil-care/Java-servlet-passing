@@ -33,15 +33,6 @@
    </dependencies>
   <build>
    <finalName>simplewebapp</finalName>
-		<plugins>
-			<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-war-plugin</artifactId>
-			<version>2.6</version>
-			<configuration>
-				<failOnMissingWebXml>false</failOnMissingWebXml>
-			</configuration>
-		</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -55,7 +46,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>com.github.rushil-care</groupId>
+									<groupId>com.github.jsimone</groupId>
 									<artifactId>webapp-runner</artifactId>
 									<version>8.0.30.2</version>
 									<destFileName>webapp-runner.jar</destFileName>
